@@ -17,10 +17,4 @@ void ShowDescriptor()
     Console.WriteLine($"The tape is a {ReturnSomething()} tape with a {Duration()} type.");
 }
 
-void Politeness()
-{
-    Console.WriteLine($"Program executed at {DateTime.Now}. Hello dear user!");
-}
-
-Politeness();
 ShowDescriptor();
