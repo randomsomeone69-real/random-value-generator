@@ -14,7 +14,11 @@ string Duration()
 
 void ShowDescriptor()
 {
+    ConsoleColor[] colour = new ConsoleColor[] {ConsoleColor.Yellow, ConsoleColor.Green, ConsoleColor.DarkRed, ConsoleColor.Cyan};
+    Random alea = new Random();
+    Console.ForegroundColor = colour[alea.Next(4)]; // choisis une couleur entre 0 et 3
     Console.WriteLine($"The tape is a {ReturnSomething()} tape with a {Duration()} type.");
+    Console.ResetColor();
 }
 
 // Programme principal - car apparamment il en faut un -_-
