@@ -7,7 +7,7 @@
 
 string Duration()
 {
-    string[] something = new string[] { "SP", "LP", "EP/SLP", "VP (NTSC)", "Data (USSR)" };
+    string[] something = new string[] { "SP", "LP", "EP", "SLP", "VP (NTSC)", "Data (USSR)" };
     Random alea = new Random(); // commande de génération de nombre aléatoire
     return something[alea.Next(something.Length)]; //génére un nombre aléatoire basé sur la longueur du tableau, puis va chercher la valeur de la génération
 }
