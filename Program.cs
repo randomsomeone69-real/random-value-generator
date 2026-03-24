@@ -17,4 +17,5 @@ void ShowDescriptor()
     Console.WriteLine($"The tape is a {ReturnSomething()} tape with a {Duration()} type.");
 }
 
+// Programme principal - car apparamment il en faut un -_-
 ShowDescriptor();
